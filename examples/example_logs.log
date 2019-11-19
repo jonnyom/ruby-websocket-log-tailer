@@ -1,0 +1,310 @@
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+lograge (0.10.0) lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+
+ActiveRecord::NoDatabaseError (FATAL:  database "spotibot_development" does not exist
+):
+
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+lograge (0.10.0) lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_store (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (411.9ms)[0m  [1m[35mCREATE DATABASE "spotibot_development" ENCODING = 'unicode'[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (292.6ms)[0m  [1m[35mCREATE DATABASE "travis_ci_test" ENCODING = 'unicode'[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35mSQL (1.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "full_name" character varying(255), "spotify_id" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "spotify_hash" jsonb DEFAULT '{}' NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190506131606)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190505175553);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-15 01:12:26.233604"], ["updated_at", "2019-09-15 01:12:26.233604"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35mSQL (0.6ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "full_name" character varying(255), "spotify_id" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "spotify_hash" jsonb DEFAULT '{}' NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190506131606)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190505175553);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-15 01:12:26.303689"], ["updated_at", "2019-09-15 01:12:26.303689"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-09-15 01:12:26.306958"], ["key", "environment"]]
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+{"method":"GET","path":"/","format":"html","controller":"UsersController","action":"index","status":302,"duration":7.18,"view":0.0,"db":0.0,"location":"http://localhost:3000/login","@timestamp":"2019-09-15T01:12:34.902Z","@version":"1","message":"[302] GET / (UsersController#index)"}
+{"method":"GET","path":"/login","format":"html","controller":"UsersController","action":"login","status":200,"duration":175.93,"view":174.21,"db":0.0,"@timestamp":"2019-09-15T01:12:35.097Z","@version":"1","message":"[200] GET /login (UsersController#login)"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("full_name", "spotify_id", "email", "created_at", "updated_at", "spotify_hash") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["full_name", "1199355469"], ["spotify_id", "1199355469"], ["email", "jonathanomahony@gmail.com"], ["created_at", "2019-09-15 01:12:58.203580"], ["updated_at", "2019-09-15 01:12:58.203580"], ["spotify_hash", "{\"birthdate\":null,\"country\":null,\"display_name\":\"1199355469\",\"email\":\"jonathanomahony@gmail.com\",\"followers\":{\"href\":null,\"total\":45},\"images\":[],\"product\":null,\"external_urls\":{\"spotify\":\"https://open.spotify.com/user/1199355469\"},\"href\":\"https://api.spotify.com/v1/users/1199355469\",\"id\":\"1199355469\",\"type\":\"user\",\"uri\":\"spotify:user:1199355469\",\"credentials\":{\"token\":\"BQAr129Do357phVu652DrifeRni-rYJii6Gx8WbDWKIG4tq1RSDP0z1bvxE63sWZX41DJAYFiy_3dYhNPfAPb2cLBJUtNDakQqD6-OCyz_K589x-aAy1-ZiPGEU7sxfFozBQUc8HyYjxOfixBz9e4txRP_55XTSyjKSByNMKIWZN02bLJI1XDXqhK6UWrQdNET3NLjpqumNQ\",\"refresh_token\":\"AQAljYpq-SGUi8ke0Bf1wwigBirUOgZ3TYM-4pD0I0keOpg1owLt6nFERmceRUhY7PtnhJ5OaWTbMYsQF5_80BNEWBz6LedahKMJx4DaHpllW0O3xykICIbgUZ-FE1PyfPyLnw\",\"expires_at\":1568513578,\"expires\":true}}"]]
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+{"method":"GET","path":"/auth/spotify/callback","format":"html","controller":"SpotifyOauthController","action":"callback","status":302,"duration":3932.11,"view":0.0,"db":5.32,"location":"http://localhost:3000/","@timestamp":"2019-09-15T01:13:02.114Z","@version":"1","message":"[302] GET /auth/spotify/callback (SpotifyOauthController#callback)"}
+{"method":"GET","path":"/","format":"html","controller":"UsersController","action":"index","status":200,"duration":8.89,"view":6.96,"db":0.0,"@timestamp":"2019-09-15T01:13:02.135Z","@version":"1","message":"[200] GET / (UsersController#index)"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+{"method":"GET","path":"/login","format":"html","controller":"UsersController","action":"login","status":200,"duration":199.11,"view":196.83,"db":0.0,"@timestamp":"2019-09-15T05:32:08.692Z","@version":"1","message":"[200] GET /login (UsersController#login)"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("full_name", "spotify_id", "email", "created_at", "updated_at", "spotify_hash") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["full_name", "1199355469"], ["spotify_id", "1199355469"], ["email", "jonathanomahony@gmail.com"], ["created_at", "2019-09-15 05:32:12.968900"], ["updated_at", "2019-09-15 05:32:12.968900"], ["spotify_hash", "{\"birthdate\":null,\"country\":null,\"display_name\":\"1199355469\",\"email\":\"jonathanomahony@gmail.com\",\"followers\":{\"href\":null,\"total\":45},\"images\":[],\"product\":null,\"external_urls\":{\"spotify\":\"https://open.spotify.com/user/1199355469\"},\"href\":\"https://api.spotify.com/v1/users/1199355469\",\"id\":\"1199355469\",\"type\":\"user\",\"uri\":\"spotify:user:1199355469\",\"credentials\":{\"token\":\"BQASaPUbye0uciiQu7nYZm8qAZVjx4z9R5P0bBcNJ1OnSLqJ9nb-RFC7rPTnrH-sIr2P70Mlfc64jdCadnA7JBQe8ytUsi6Pv6KnQZJ04b0oCz5eoWnkGUxx7rkMccmVoF-IaWs1GKZsqDLpWZEQnjq4Hh2hDM23WhhM8ON5U3OZf2r0uPjnIxugxjqX7Dtyq7iBltiJRSUKsA9TUD-koV0\",\"refresh_token\":\"AQCv7BVNdFfdN2nzxmg_cCMXX1Jwvp_cTf9TyD3xHHCTVZx9aogC9MXCBci4clT96tluY8MleYfDCpCqt7rnWm5HbucxAYQuCJTrLUziZuNzMuA0oR_1-fxKOn1PShDwt1hUew\",\"expires_at\":1568529132,\"expires\":true}}"]]
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+{"method":"GET","path":"/auth/spotify/callback","format":"html","controller":"SpotifyOauthController","action":"callback","status":302,"duration":4539.01,"view":0.0,"db":6.12,"location":"http://localhost:3000/","@timestamp":"2019-09-15T05:32:17.484Z","@version":"1","message":"[302] GET /auth/spotify/callback (SpotifyOauthController#callback)"}
+{"method":"GET","path":"/","format":"html","controller":"UsersController","action":"index","status":200,"duration":8.61,"view":6.53,"db":0.0,"@timestamp":"2019-09-15T05:32:17.507Z","@version":"1","message":"[200] GET / (UsersController#index)"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Discover Playlists
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Discover Playlists
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Discover Playlists
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Discover Playlists
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Discover Playlists
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+[1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jonnyomahony/.rbenv/versions/2.5.5/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+{"method":"GET","path":"/","format":"html","controller":"UsersController","action":"index","status":200,"duration":165.86,"view":158.19,"db":0.0,"@timestamp":"2019-09-15T07:02:24.737Z","@version":"1","message":"[200] GET / (UsersController#index)"}
+
+OmniAuth::Strategies::OAuth2::CallbackError (csrf_detected | CSRF detected):
+
+omniauth (1.9.0) lib/omniauth/failure_endpoint.rb:25:in `raise_out!'
+omniauth (1.9.0) lib/omniauth/failure_endpoint.rb:20:in `call'
+omniauth (1.9.0) lib/omniauth/failure_endpoint.rb:12:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:491:in `fail!'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:71:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+lograge (0.10.0) lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+request_st
+ore (1.4.1) lib/request_store/middleware.rb:19:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("full_name", "spotify_id", "email", "created_at", "updated_at", "spotify_hash") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["full_name", "1199355469"], ["spotify_id", "1199355469"], ["email", "jonathanomahony@gmail.com"], ["created_at", "2019-09-15 07:02:29.651498"], ["updated_at", "2019-09-15 07:02:29.651498"], ["spotify_hash", "{\"birthdate\":null,\"country\":null,\"display_name\":\"1199355469\",\"email\":\"jonathanomahony@gmail.com\",\"followers\":{\"href\":null,\"total\":45},\"images\":[],\"product\":null,\"external_urls\":{\"spotify\":\"https://open.spotify.com/user/1199355469\"},\"href\":\"https://api.spotify.com/v1/users/1199355469\",\"id\":\"1199355469\",\"type\":\"user\",\"uri\":\"spotify:user:1199355469\",\"credentials\":{\"token\":\"BQDfYVuxMi6V5FGMsfs8fb--WIa7gAm17WE1mVJ8GpXR-elH3tzMEHplzZGLFvy2I4ljFAuqQk4EDR9v3Eht-pyEx9J1IwO2SvcMy5mBXfoLgafiQqgilSYtjCF43h9_k-QHYORPnjZdR5EE_iZkPeNynqCvdHlK2aJp2cYPUTz4-PdXS7sDaUAThmbsC8zFezUDJpBue4VTUhjteRem84mHmEE1WQGLWV52k6cHow\",\"refresh_token\":\"AQAeaWLS15CLZg9oFWeMJO0PUs0mg4GZa00PY4XTSsRvQGP9gpK5j18s1sxMd-Bv5O-NQXD3dpQSmH85ziYs80q0Uv2-0YbrBoUoqy1Jp2PlJWilC0Rm6g-mIgMaFB2HWW-GWA\",\"expires_at\":1568534549,\"expires\":true}}"]]
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/spotify_oauth_controller.rb:6
+{"method":"GET","path":"/auth/spotify/callback","format":"html","controller":"SpotifyOauthController","action":"callback","status":302,"duration":2670.67,"view":0.0,"db":4.87,"location":"http://localhost:3000/","@timestamp":"2019-09-15T07:02:32.308Z","@version":"1","message":"[302] GET /auth/spotify/callback (SpotifyOauthController#callback)"}
+{"method":"GET","path":"/","format":"html","controller":"UsersController","action":"index","status":200,"duration":8.41,"view":6.92,"db":0.0,"@timestamp":"2019-09-15T07:02:32.324Z","@version":"1","message":"[200] GET / (UsersController#index)"}
+[1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+testingtesting
+heyhey
+asfaf
+asd
+asd
+123
+123
+123
+123
+hey
+hello
+thiw
+hu
+hh
+TESTING1
+TESTING2
+TESTING3
+TESTING4
+TESTING5
+TESTING6
+TESTING7
+TESTING8
+TESTING9
+TESTING10
+TESTING11
