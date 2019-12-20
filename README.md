@@ -1,5 +1,5 @@
 # Log Tailer
-This is a simple (Sinatra)[http://sinatrarb.com/] app that emulates the Unix `tail -f` command.
+This is a simple [Sinatra](http://sinatrarb.com/) app that emulates the Unix `tail -f` command.
 
 It takes a given logfile and transmits the last ten lines of the file over a websocket connection
 to any clients connected.
